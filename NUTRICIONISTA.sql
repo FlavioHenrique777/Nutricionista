@@ -46,4 +46,5 @@ update T_NUTRICIONISTA set nome = "Maicon Douglas" where nome = "Maycon Douglas"
 /*EX 28*/ 
 update T_NUTRICIONISTA set ESPECIALIDADE = "NE" where = "Nutricaoo Esportiva"; 
 
-/*EX 29*/
+/*EX 29*/ 
+delete from t_cliente where codigo = 3; /*DELETANDO O 3° DA TABELA*/
